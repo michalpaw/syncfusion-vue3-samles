@@ -1,0 +1,91 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@syncfusion/ej2": "^31.2.12",
+    "@syncfusion/ej2-base": "31.2.12",
+    "@syncfusion/ej2-buttons": "31.2.12",
+    "@syncfusion/ej2-calendars": "31.2.15",
+    "@syncfusion/ej2-charts": "31.2.15",
+    "@syncfusion/ej2-data": "^31.2.12",
+    "@syncfusion/ej2-dropdowns": "31.2.15",
+    "@syncfusion/ej2-file-utils": "31.2.12",
+    "@syncfusion/ej2-excel-export": "31.2.12",
+    "@syncfusion/ej2-grid-chart": "31.2.12",
+    "@syncfusion/ej2-grids": "^31.2.15",
+    "@syncfusion/ej2-icons": "31.2.12",
+    "@syncfusion/ej2-inputs": "31.2.15",
+    "@syncfusion/ej2-navigations": "31.2.12",
+    "@syncfusion/ej2-pdf-export": "31.2.12",
+    "@syncfusion/ej2-notifications": "31.2.12",
+    "@syncfusion/ej2-lists": "31.2.12",
+    "@syncfusion/ej2-popups": "31.2.12",
+    "@syncfusion/ej2-svg-base": "31.2.12",
+    "@syncfusion/ej2-vue-base": "31.2.12",
+    "@syncfusion/ej2-vue-calendars": "31.2.15",
+    "@syncfusion/ej2-splitbuttons": "31.2.12",
+    "@syncfusion/ej2-vue-charts": "^31.2.15",
+    "@syncfusion/ej2-vue-dropdowns": "^31.2.15",
+    "@syncfusion/ej2-vue-grids": "^31.2.15",
+    "@syncfusion/ej2-vue-inputs": "^31.2.15",
+    "@syncfusion/ej2-vue-maps": "31.2.12",
+    "@syncfusion/ej2-vue-navigations": "31.2.12",
+    "@syncfusion/ej2-pivotview": "31.2.12",
+    "@syncfusion/ej2-vue-pivotview": "^31.2.12",
+    "@syncfusion/ej2-vue-richtexteditor": "31.2.15",
+    "@syncfusion/ej2-vue-schedule": "31.2.15",
+    "@syncfusion/ej2-compression": "31.2.12",
+
+    "core-js": "^3.31.0",
+    "markdown-spellcheck": "1.3.1",
+    "vue": "^3.3.4",
+    "vue-class-component": "^8.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-typescript": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.3.4",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.45.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "~5.1.6"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {
+      "no-var": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "vue/multi-word-component-names": "off",
+      "@typescript-eslint/ban-types": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
